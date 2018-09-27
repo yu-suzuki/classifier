@@ -83,5 +83,6 @@ test:
 production:
   <<: *default
   database: classifier_production
+  host: vm4
   username: classifier
   password: classifier
